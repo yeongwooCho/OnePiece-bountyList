@@ -144,13 +144,14 @@
                             <constraint firstItem="dSR-xk-8bG" firstAttribute="centerX" secondItem="jed-2V-Esm" secondAttribute="centerX" id="il0-sr-Myq"/>
                             <constraint firstItem="jed-2V-Esm" firstAttribute="bottom" secondItem="WPJ-bE-n4s" secondAttribute="bottom" constant="54" id="vYd-iS-wCn"/>
                             <constraint firstItem="dSR-xk-8bG" firstAttribute="top" secondItem="1UU-2H-J7s" secondAttribute="bottom" constant="39" id="vcz-Vn-jdG"/>
-                            <constraint firstItem="dSR-xk-8bG" firstAttribute="leading" secondItem="jed-2V-Esm" secondAttribute="leading" constant="96" id="wih-jW-xSo"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="bountyLabel" destination="WPJ-bE-n4s" id="CGF-g7-c0W"/>
+                        <outlet property="bountyLabelCenterX" destination="0M9-9K-OdX" id="Oqn-J8-dUW"/>
                         <outlet property="imgLabel" destination="1UU-2H-J7s" id="GxO-8k-RB7"/>
                         <outlet property="nameLabel" destination="dSR-xk-8bG" id="yNz-Z7-VIx"/>
+                        <outlet property="nameLabelCenterX" destination="il0-sr-Myq" id="59m-k2-cGW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mS6-mN-2gZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
