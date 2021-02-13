@@ -13,6 +13,8 @@
 		3D04250825D7AE2A0067B87E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D04250625D7AE2A0067B87E /* Main.storyboard */; };
 		3D04250A25D7AE2B0067B87E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D04250925D7AE2B0067B87E /* Assets.xcassets */; };
 		3D04250D25D7AE2B0067B87E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D04250B25D7AE2B0067B87E /* LaunchScreen.storyboard */; };
+		3D04251B25D7CE1E0067B87E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04251A25D7CE1E0067B87E /* DetailViewController.swift */; };
+		3D04252525D7D5330067B87E /* BountyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04252425D7D5330067B87E /* BountyInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3D04250925D7AE2B0067B87E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D04250C25D7AE2B0067B87E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D04250E25D7AE2B0067B87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D04251A25D7CE1E0067B87E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3D04252425D7D5330067B87E /* BountyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				3D04250925D7AE2B0067B87E /* Assets.xcassets */,
 				3D04250B25D7AE2B0067B87E /* LaunchScreen.storyboard */,
 				3D04250E25D7AE2B0067B87E /* Info.plist */,
+				3D04251A25D7CE1E0067B87E /* DetailViewController.swift */,
+				3D04252425D7D5330067B87E /* BountyInfo.swift */,
 			);
 			path = test2;
 			sourceTree = "<group>";
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D04252525D7D5330067B87E /* BountyInfo.swift in Sources */,
 				3D04250525D7AE2A0067B87E /* ViewController.swift in Sources */,
 				3D04250125D7AE2A0067B87E /* AppDelegate.swift in Sources */,
 				3D04250325D7AE2A0067B87E /* SceneDelegate.swift in Sources */,
+				3D04251B25D7CE1E0067B87E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

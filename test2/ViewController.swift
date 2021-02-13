@@ -30,6 +30,21 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         return cell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDetail" {
+            let vc = segue.destination as? DetailViewController
+//            여기도 if let 으로 묶어도 되며, 이렇게 되면 밑의 vc?처럼 optional하게 변형하지 않아도 된다.
+            if let index = sender as? Int {
+                vc?.viewModel.update(info: viewModel.getInfo(index: index))
+            }
+        }
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("--> \(indexPath.item)")
+        performSegue(withIdentifier: "showDetail", sender: indexPath.item)
+    }
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let itemSpacing: CGFloat = 10
         let textArea: CGFloat = 65
@@ -51,17 +66,6 @@ class GridCell: UICollectionViewCell {
         imgLabel.image = img
         nameLabel.text = info.name
         bountyLabel.text = "\(info.bounty)"
-    }
-}
-
-
-struct BountyInfo {
-    let name: String
-    let bounty: Int
-    
-    init(name: String, bounty: Int) {
-        self.name = name
-        self.bounty = bounty
     }
 }
 
