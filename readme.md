@@ -20,11 +20,15 @@
 * Animation (contant or properties)
 
 
+**결과물**
+
 > 결과물: https://yeongwoo-cho.tistory.com/82
+
 > 감코블로그: https://yeongwoo-cho.tistory.com/
 
 
-* 저작권
+**저작권**
 > fastcampus: https://www.fastcampus.co.kr/
+
 > 이준원: https://github.com/cafielo
 
